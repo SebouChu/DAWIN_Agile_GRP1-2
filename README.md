@@ -1,9 +1,9 @@
 # DAWIN_Agile_GRP1-2
 
-Le projet de l'agilité powered by DAWIN
+Le projet de l'agilité powered by DAWIN. Ce projet est un WordPress multi-site, contenant Fablab et Technoshop.
 
 ## Fablab
-https://github.com/SebouChu/DAWIN_Agile_GRP1-2/tree/fablab
+https://cohabit.utila.io/fablab
 
 ## Technoshop
-https://github.com/SebouChu/DAWIN_Agile_GRP1-2/tree/technoshop
+https://cohabit.utila.io/technoshop
