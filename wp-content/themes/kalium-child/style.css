@@ -1,0 +1,13 @@
+/*
+Theme Name: kalium-child
+Description: Theme enfant de Kalium
+Author: kalium
+Author URI:
+Template: kalium
+Version: 0.1.0
+*/
+
+.main-header.sticky-initialized+.sticky-spacer{
+  background-color: #5b90bf;
+}
+
