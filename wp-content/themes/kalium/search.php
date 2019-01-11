@@ -11,6 +11,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 get_header();
 
-get_template_part( 'tpls/search-results' );
+WP_Advanced_Search();
+
+//get_template_part( 'tpls/search-results' );
+echo do_shortcode('[advanced-search]');
 
 get_footer();
