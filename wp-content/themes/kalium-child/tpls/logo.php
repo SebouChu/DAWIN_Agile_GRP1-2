@@ -35,7 +35,7 @@ if ( $use_uploaded_logo ) {
 
 	if ( is_array( $logo_image ) ) {
 		$logo_image_url = $logo_image[0];
-		
+
 		if ( ! $custom_logo_max_width ) {
 			$custom_logo_max_width = $logo_image[1];
 		}
@@ -61,7 +61,7 @@ if ( $use_uploaded_logo ) {
 do_action( 'kalium_before_logo' );
 
 ?>
-<a itemprop="url" href="<?php echo apply_filters( 'kalium_logo_url', "http://cohabit.utila.io" ); ?>" class="<?php 
+<a itemprop="url" href="<?php echo apply_filters( 'kalium_logo_url', "http://cohabit.example.test" ); ?>" class="<?php
 	echo esc_attr( $header_logo_class );
 	when_match( $use_uploaded_logo, 'logo-image', 'logo-text' );
 ?>">
